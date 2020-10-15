@@ -1,0 +1,16 @@
+# Properties relating to Database
+
+MSDatabase:
+  url: "jdbc:oracle:thin:@IN2NPDLNXDB18:1521:if18cb"
+  driverClassName: "oracle.jdbc.driver.OracleDriver"
+  user: "MSGSTR106404"
+  password: "MSGSTR106404"
+        
+  connection:
+    maxPoolSize: "100"
+    minPoolSize: "10"
+    preparedStatementCacheSize: "10"
+    maxWait: "10"
+
+  
+queryTimeout: "500"

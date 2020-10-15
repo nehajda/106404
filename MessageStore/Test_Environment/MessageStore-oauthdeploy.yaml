@@ -1,0 +1,5 @@
+# Auto discovery needs to be configured through mulesoft API manager if oAuth needs to be enabled. 
+# API Id value of that configuration needs to be added here.
+
+apiGatewayAutodiscovery:
+  apiId: "xxxx"

@@ -1,0 +1,11 @@
+replay:
+  TMA-GLOBAL-TEST-24:
+    host: localhost
+    port: 1000
+    path: /replayEndpoint
+    basePath: /v2
+  SampleServiceName:
+    host: localhost
+    port: 9090
+    path: /replayEndpoint
+    basePath: /v2
