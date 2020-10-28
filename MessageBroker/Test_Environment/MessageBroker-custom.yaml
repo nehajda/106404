@@ -23,7 +23,7 @@ server:
     config: "HTTPS_Listener_Config"
     #config: "HTTP_Listener_Config"  
   https:
-    host: "0.0.0.0"
+    host: "ESSRVVS01"
     port: "9910"
     tls:
       keyStore:
