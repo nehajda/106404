@@ -1,10 +1,10 @@
 # Properties relating to Database
 
 MSDatabase:
-  url: "jdbc:oracle:thin:@localhost:1521:TestDB"
+  url: "jdbc:oracle:thin:@IN2NPDLNXDB18:1521:if18cb"
   driverClassName: "oracle.jdbc.driver.OracleDriver"
-  user: "testUser"
-  password: "testPasssword"
+  user: "MSGSTR106404"
+  password: "MSGSTR106404"
         
   connection:
     maxPoolSize: "100"
