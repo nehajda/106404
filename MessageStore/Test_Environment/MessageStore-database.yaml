@@ -10,7 +10,7 @@ MSDatabase:
     maxPoolSize: "20"
     minPoolSize: "10"
     preparedStatementCacheSize: "10"
-    maxWait: "10"
+    maxWait: "50"
 
   
 queryTimeout: "500"
