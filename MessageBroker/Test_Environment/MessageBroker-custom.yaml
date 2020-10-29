@@ -2,7 +2,20 @@
 
 
 # ---------------------------------------------------------------------------------------------------------
-
+# Inbound Endpoint Properties
+# Copy the below content into src/main/resources/config-repo/MessageBroker/MessageBroker-custom.yaml to enable the properties for this endpoint
+# JMS inbound endpoint
+jmsInbound:
+  queue:
+    brokerURL: "tcp://ESSRVVS01:61616"
+    user: "admin"
+    password-secure: "admin"
+    maxConnections: "5"
+    concurrentConsumers: "3"
+    initialRedeliveryDelay: "20000"
+    redeliveryDelay: "20000"
+    sessionCacheSize: "100"
+    maximumRedeliveries: "5"
 ## Http Inbound Properties
 server: 
   listener: 
@@ -29,23 +42,11 @@ server:
 
 # ---------------------------------------------------------------------------------------------------------
 # Outbound Endpoint Properties
-# JMS inbound endpoint
-jmsInbound:
-  queue:
-    brokerURL: "failover://tcp://ESSRVVS01:61616"
-    user: "admin"
-    password-secure: "admin"
-    maxConnections: "5"
-    concurrentConsumers: "3"
-    initialRedeliveryDelay: "20000"
-    redeliveryDelay: "20000"
-    sessionCacheSize: "100"
-    maximumRedeliveries: "5
-    
+# Copy the below content into src/main/resources/config-repo/MessageBroker/MessageBroker-custom.yaml to enable the properties for this endpoint
 # JMS outbound endpoint
 jmsOutbound:
   queue:
-    brokerURL: "failover://tcp://ESSRVVS01:61616"
+    brokerURL: "tcp://ESSRVVS01:61616"
     user: "admin"
     password-secure: "admin"
     maxConnections: "5"
