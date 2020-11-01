@@ -1,10 +1,12 @@
 # Properties relating to Database
 
 MSDatabase:
-  url: "jdbc:oracle:thin:@IN2NPDLNXDB18:1521:if18cb"
-  driverClassName: "oracle.jdbc.driver.OracleDriver"
-  user: "MSGSTR106404"
-  password: "MSGSTR106404"
+username=wms
+url=jdbc:sqlserver://ESSRVVS01:1433;databaseName=MSGST106404
+driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+dba_password=|B|I5Zv0iVsBteoN9LIGjReO6GNm6POiqgx
+password=|B|Oh5WjPJHtBDp5O6GoCXvTFlrOcur3x5g
+dba_username=wms
         
   connection:
     maxPoolSize: "20"
