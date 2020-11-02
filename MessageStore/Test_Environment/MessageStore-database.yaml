@@ -4,9 +4,9 @@ MSDatabase:
 username=MSGST106404
 url=jdbc:sqlserver://ESSRVVS01:1433;databaseName=MSGST106404
 driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
-dba_password=|B|I5Zv0iVsBteoN9LIGjReO6GNm6POiqgx
+#dba_password=|B|I5Zv0iVsBteoN9LIGjReO6GNm6POiqgx
 password=|B|Oh5WjPJHtBDp5O6GoCXvTFlrOcur3x5g
-dba_username=MSGST106404
+#dba_username=MSGST106404
         
   connection:
     maxPoolSize: "20"
