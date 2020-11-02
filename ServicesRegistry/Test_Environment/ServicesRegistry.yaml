@@ -37,7 +37,7 @@ eframework:
   # Configuration Service is only used when srs.useCps is true
 cps:
   useCps: "true"  # if false then CPS is not called and files are loaded locally
-  cpsBaseUrl: "https://in2npdvdcssv08.dev.corp.local:9810"
+  cpsBaseUrl: "https://ESSRVVS01:9810"
   applicationName: “ServicesRegistry”
   profiles: "*"
   version: "*"
