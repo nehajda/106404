@@ -9,10 +9,10 @@ MSDatabase:
   password: "MSGST10640"
   
   connection:
-    maxPoolSize: "20"
+    maxPoolSize: "100"
     minPoolSize: "10"
     preparedStatementCacheSize: "10"
-    maxWait: "50"
+    maxWait: "10"
 
   
 queryTimeout: "500"
