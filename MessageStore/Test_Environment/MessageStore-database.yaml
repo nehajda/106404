@@ -1,13 +1,13 @@
 # Properties relating to Database
 
 MSDatabase:
-username=MSGST106404
-url=jdbc:sqlserver://ESSRVVS01:1433;databaseName=MSGST106404
-driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
-#dba_password=|B|I5Zv0iVsBteoN9LIGjReO6GNm6POiqgx
-password=|B|Oh5WjPJHtBDp5O6GoCXvTFlrOcur3x5g
-#dba_username=MSGST106404
-        
+  url: "jdbc:sqlserver://ESSRVVS01:1433;databaseName=MSGST10640"
+  # If Server has instanceName and portNumber then use below url.
+  # url: "jdbc:sqlserver://localhost;instanceName=inst1;portNumber=1433;databaseName=TestDB"
+  driverClassName: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+  user: "MSGST10640"
+  password: "MSGST10640"
+  
   connection:
     maxPoolSize: "20"
     minPoolSize: "10"
