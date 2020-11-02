@@ -7,7 +7,7 @@
 # JMS inbound endpoint
 jmsInbound:
   queue:
-    brokerURL: "tcp://ESSRVVS01.dev.corp.local:61616"
+    brokerURL: "tcp://ESSRVVS01:61616"
     user: "admin"
     password-secure: "admin"
     maxConnections: "5"
@@ -46,7 +46,7 @@ server:
 # JMS outbound endpoint
 jmsOutbound:
   queue:
-    brokerURL: "tcp://ESSRVVS01.dev.corp.local:61616"
+    brokerURL: "tcp://ESSRVVS01:61616"
     user: "admin"
     password-secure: "admin"
     maxConnections: "5"
