@@ -7,7 +7,7 @@ mb:
 
 #Message Broker JMS Queue with AcitveMQ Properties
     jms:
-      brokerURL: "tcp://ESSRVVS01.dev.corp.local:61616"
+      brokerURL: "tcp://ESSRVVS01:61616"
       user: "admin"
       password-secure: "admin"
       maxConnections: "5"
