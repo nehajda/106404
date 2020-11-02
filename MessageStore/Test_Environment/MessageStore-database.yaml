@@ -1,7 +1,7 @@
 # Properties relating to Database
 
 MSDatabase:
-  url: "jdbc:sqlserver://ESSRVVS01:1433;databaseName=MSGST10640"
+  url: "jdbc:sqlserver://ESSRVVS01;databaseName=MSGST10640"
   # If Server has instanceName and portNumber then use below url.
   # url: "jdbc:sqlserver://localhost;instanceName=inst1;portNumber=1433;databaseName=TestDB"
   driverClassName: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
