@@ -5,8 +5,8 @@ MSDatabase:
   # If Server has instanceName and portNumber then use below url.
   # url: "jdbc:sqlserver://localhost;instanceName=inst1;portNumber=1433;databaseName=TestDB"
   driverClassName: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-  user: "MSGST10640"
-  password: "MSGST10640"
+  user: "wms"
+  password: "|B|I5Zv0iVsBteoN9LIGjReO6GNm6POiqgx"
   
   connection:
     maxPoolSize: "100"
