@@ -1,12 +1,12 @@
 # Properties relating to Database
 
 MSDatabase:
-  url: "jdbc:sqlserver://in2npdvdcs03;databaseName=MSGSTR01"
+  url: "jdbc:sqlserver://10.6.40.249;databaseName=MSGSTR106404"
   # If Server has instanceName and portNumber then use below url.
   # url: "jdbc:sqlserver://localhost;instanceName=inst1;portNumber=1433;databaseName=TestDB"
   driverClassName: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-  user: "sa1"
-  password: "Jda123456"
+  user: "JDACONNECT01"
+  password: "1234"
   
   connection:
     maxPoolSize: "100"
